@@ -1,3 +1,9 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .articles{
     width: 616px;
 }
@@ -5,4 +11,79 @@
 .article-media-img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.my-article{
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.article-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.article-header-actions{
+    margin-left: auto;
+}
+
+.article-header-title{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.article-main-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+}
+
+.article-main-buttons-bookmark{
+    margin-left: auto!important;
+}
+
+.article-main-buttons-item {
+    margin-left: 8px;
+}
+
+.article-main{
+    margin: 10px;
+}
+
+.article-main-likes{
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.article-source{
+    font-weight: bold;
+}
+
+.more {
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.publication-date, .view-comments{
+    color: lightgrey;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.comment-user-name {
+    font-weight: bold;
+}
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment-like{
+    margin-left: auto!important;
 }
